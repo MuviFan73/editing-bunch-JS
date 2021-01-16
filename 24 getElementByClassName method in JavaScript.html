@@ -1,0 +1,26 @@
+<html>
+    <title>#24 getElementByClassName method in JavaScript</title>
+    <script type="text/javascript">
+        function fn1()
+        {
+            var element=document.getElementsByClassName("mypara");
+            for(var i=0;i<element.length;i++)
+            {
+                element[i].style.color="red";
+            }
+        }
+    </script>
+    <head>
+        <body>
+            <p class="mypara">This is paragraph 1</p>
+            <p>This is paragraph 2</p>
+            <p class="mypara">This is paragraph 3</p>
+            <p>This is paragraph 4</p>
+            <p class="mypara">This is paragraph 5</p>
+            <a class="mypara" href="#">Same class Different tag</a>
+            <br>
+            <button onclick="fn1()" id="btn1">Click Me</button>
+
+        </body>
+    </head>
+</html>

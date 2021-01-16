@@ -1,0 +1,29 @@
+<html>
+    <title>#20 Taking Input from user in JavaScript  TextBox</title>
+    <script type="text/javascript">
+        function changeStyling()
+        {
+            var para=document.getElementsByTagName("p");
+            para[0].style.fontSize=25;
+            para[1].style.color="red";
+        }
+        /*function changeStyling()
+        {
+            var para=document.getElementsByTagName("p");
+            for (var i=0;i<para.length;i++)
+                para[i].style.fontSize=22;
+        }*/
+    </script>
+    <head>
+        <body>
+            <p>This is a paragraph 1</p>
+            <p>This is a paragraph 2</p>
+            <p>This is a paragraph 3</p>
+            <p>This is a paragraph 4</p>
+            <p>This is a paragraph 5</p>
+            <br>
+            <button onclick="changeStyling()" id="btn1">Click Me</button>
+
+        </body>
+    </head>
+</html>
